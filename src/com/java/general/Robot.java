@@ -1,4 +1,4 @@
-package com.java;
+package com.java.general;
 
 public class Robot {
 	

@@ -1,0 +1,3 @@
+Hello Python!
+It's very easy to create a file.
+We can also append lines to an existing file.

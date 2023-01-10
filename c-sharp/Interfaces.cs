@@ -9,8 +9,7 @@ namespace interfaces
    * A class can implement multiple interfaces.
    */
 
-   // An interface is declared with the 'interface' keyword and it's a convention
-   // to start its name with an 'I'
+   // An interface is declared with the 'interface' keyword and it's a convention to start its name with an 'I'
    interface IAnimal
    {
     // Properties

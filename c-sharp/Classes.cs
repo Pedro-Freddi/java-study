@@ -9,7 +9,7 @@ namespace classes
    * Access to members of a class can be defined by the use of access modifiers (public, private, etc.).
    * Objects are unique instances of a class. Each have its own values for fields and properties, as well as
    * access to the methods defined in the body of the class.
-   * Static fields, properties, methods, etc. are associated with the class itself and are used to define data   * and methods common to all instances of the class. These are accessed through direct reference to the class.
+   * Static fields, properties, methods, etc. are associated with the class itself and are used to define data and methods common to all instances of the class. These are accessed through direct reference to the class.
    */
   public class Person
   {
@@ -77,9 +77,8 @@ namespace classes
       Console.WriteLine("Default values set for Person object.");
     }
 
-    // A static constructor is called either when an object of the class is instantiated or
-    // when a static member of the class is accessed. Static constructors cannot have access modifiers
-    // and run only once per type
+    // A static constructor is called either when an object of the class is instantiated or when a static member of the class is accessed.
+    // Static constructors cannot have access modifiers and run only once per type.
     static Person()
     {
       Species = "Homo Sapiens";

@@ -29,8 +29,7 @@ namespace inheritance
       this.Age++;
     }
 
-    // Define a method with the 'virtual' keywork so that subclasses can override
-    // the method if they need to
+    // Define a method with the 'virtual' keywork so that subclasses can override it if they need to
     public virtual void SayName()
     {
       Console.WriteLine($"My name is {this.Name}.");

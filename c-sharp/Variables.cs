@@ -8,7 +8,8 @@ namespace variables
     {
       /*
        * Variables in C# are strongly typed
-       * Implicit conversion is allowed when it won't cause data loss 
+       * Implicit conversion is allowed when it won't cause data loss
+       * We can use the 'var' keyword to declare implicity typed variables
        */
 
       // Numeric built-in value types
@@ -32,6 +33,10 @@ namespace variables
 
       // DateTime type
       DateTime date = new DateTime();
+
+      // Using 'var'
+      var message = "This is a string"; // type string is implicit
+      var count = 15; // type int is implicit
 
     }
   }

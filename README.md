@@ -6,8 +6,8 @@ This repository contains personal notes and examples of syntax and features of p
 
 Relevant files and folders are located in the `java/src/com/java` folder. A quick summary follows:
 
-- `/general`: contains annotatios about loops, string methods and arrays.
-- `/collections`: common data structures of the Java collections framework.
+- `/general`: contains annotations about loops, string methods and arrays.
+- `/collections`: common data structures of Java collections framework.
 - `/file/manipulation`: examples using Java's IO module classes to read and write to files.
 - `/exceptions`: examples exploring exceptions and try/catch blocks.
 - `/modifiers`: examples to illustrate how class, attribute and method modifiers behave, as well as abstract classes and interfaces.
@@ -21,4 +21,4 @@ All scripts can be executed using the `python <file name>` command in the termin
 
 ## C#
 
-The `/c-sharp` folder contains files with notes and examples for fundamental topics of the language. Each file is a program on its own containing a namespace, a Program class and a Main method, thus can be executed individually to illustrate the examples.
+The `/c-sharp` folder contains files with notes and examples of fundamental topics of the language. Each file is a program on its own containing a namespace, a Program class and a Main method, thus can be executed individually to illustrate the examples.
